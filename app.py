@@ -24,9 +24,9 @@ def recommend(movie):
 
 
 # Load the movies data and similarity matrix
-movies_list = joblib.load(open('movies.pkl', 'rb'))
+movies_list = joblib.load('movies.pkl')
 movies_list = pd.DataFrame(movies_list)
-similarity = joblib.load(open('similarity.pkl', 'rb'))
+similarity = joblib.load('similarity.pkl')
 
 # Streamlit app
 st.title("Movies Recommender System")
