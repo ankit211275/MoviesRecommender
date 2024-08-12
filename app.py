@@ -1,8 +1,8 @@
 import streamlit as st
-import pickle
+import joblib
 import pandas as pd
 import requests
-import time
+
 def fetch_poster(movie_id):
     response = requests.get("http://api.themoviedb.org/3/movie/{}?api_key=9fe290105a90e875898bebb187c82dbb&language=en-US".format(movie_id))
     data = response.json()
@@ -24,9 +24,9 @@ def recommend(movie):
 
 
 # Load the movies data and similarity matrix
-movies_list = pickle.load(open('movies.pkl', 'rb'))
+movies_list = joblib.load(open('movies.pkl', 'rb'))
 movies_list = pd.DataFrame(movies_list)
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+similarity = joblib.load(open('similarity.pkl', 'rb'))
 
 # Streamlit app
 st.title("Movies Recommender System")
