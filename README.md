@@ -2,7 +2,7 @@
 
 Welcome to the Movie Recommender System! This project builds a personalized recommendation engine using content-based filtering on the TMDB 5000 Movie Dataset. You can try it out live here:
 
-🔗 Live Demo: moviesrecommender-xqt6.onrender.com
+🔗 Live Demo: [MoviesRecommender](https://moviesrecommender-xqt6.onrender.com)
 
 ⸻
 ## 🧠 Project Overview
@@ -95,3 +95,4 @@ This content-based movie recommendation engine provides relevant and engaging su
 To explore its performance for yourself, just try the live demo and enter any movie you love!
 
 ## 🔗 Launch the app
+Access it here: [MoviesRecommender](https://moviesrecommender-xqt6.onrender.com)
