@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Dataset files
+*.csv
+*.tsv
+*.zip
+
+# Model files
+*.pkl
+*.h5
+*.joblib
+
+# Streamlit cache
+.streamlit/
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+toxicity/   # If reused from other project
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Hidden files
+*.swp
+*~
